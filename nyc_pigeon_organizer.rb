@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |attribute, names|
       names.each do |name|
-        unless output[name]
+        unless output[name].nil?
         
         output[name] =
       end
