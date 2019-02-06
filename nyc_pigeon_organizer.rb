@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   location = data[:lives]
   data.each do |key, value|
     value.each do |name|
-      output[name]
+      output[name] = {}
     end
   end
   binding.pry
