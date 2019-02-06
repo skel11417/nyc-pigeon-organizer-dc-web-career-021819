@@ -9,9 +9,9 @@ def nyc_pigeon_organizer(data)
         if output[name].nil?
           output[name] = {:color => [], :gender => [], :lives => []}
         end
-        color = []
-        gender = []
-        lives = []
+        # color = []
+        # gender = []
+        # lives = []
         output[name][attribute] = 
       end
     end
