@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
         # color = []
         # gender = []
         # lives = []
+        binding.pry
         output[name][attribute] << 
       end
     end
