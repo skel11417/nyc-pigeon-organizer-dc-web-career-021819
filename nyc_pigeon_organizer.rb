@@ -9,6 +9,9 @@ def nyc_pigeon_organizer(data)
         if output[name].nil?
           output[name] = {}
         end
+        color = []
+        gender = []
+        lives = []
         # output[name] = 
       end
     end
