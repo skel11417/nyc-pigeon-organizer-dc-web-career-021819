@@ -8,6 +8,6 @@ def nyc_pigeon_organizer(data)
   binding.pry
   data.each do |key, value|
     value.each do |name|
-      output[]
+      output[""]
   
 end
