@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         if output[name].nil?
           output[name] = {}
         end
-        output[name] = 
+        # output[name] = 
       end
     end
   end
