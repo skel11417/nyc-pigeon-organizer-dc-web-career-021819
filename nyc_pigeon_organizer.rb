@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
         # color = []
         # gender = []
         # lives = []
-        output[name][attribute] = 
+        output[name][attribute] 
       end
     end
   end
