@@ -8,6 +8,6 @@ def nyc_pigeon_organizer(data)
       output[name] = {}
     end
   end
-  binding.pry
+  # binding.pry
   output
 end
