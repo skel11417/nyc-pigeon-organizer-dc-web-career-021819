@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if output[name].nil?
           output[name] = {}
-        
+        end
         output[name] =
       end
     end
