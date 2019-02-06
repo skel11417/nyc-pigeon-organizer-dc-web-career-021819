@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   output = {}
   colors = data[:color]
   genders = data[:gender]
-  location = data[:lives]e
+  location = data[:lives]
   binding.pry
   
 end
