@@ -9,14 +9,9 @@ def nyc_pigeon_organizer(data)
         if output[name].nil?
           output[name] = {:color => [], :gender => [], :lives => []}
         end
-        # color = []
-        # gender = []
-        # lives = []
-        # binding.pry
         output[name][key] << attribute.to_s
       end
     end
   end
-  # binding.pry
   output
 end
